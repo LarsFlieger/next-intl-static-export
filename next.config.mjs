@@ -5,7 +5,7 @@ const withNextIntl = createNextIntlPlugin();
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: "export",
-    trailingSlash: false,
+    trailingSlash: true,
 };
 
 export default withNextIntl(nextConfig);
