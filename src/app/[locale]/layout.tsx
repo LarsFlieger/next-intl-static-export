@@ -33,7 +33,7 @@ export default function RootLayout({
               const pages = ["", "about"];
               return pages.map((page) => (
                 <li key={l}>
-                  <a href={`${l}/${page}`}>{`${l}/${page}`}</a>
+                  <a href={`/${l}/${page}`}>{`/${l}/${page}`}</a>
                 </li>
               ));
             })}
