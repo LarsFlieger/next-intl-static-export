@@ -5,5 +5,9 @@
   "About": {
     "title": "Über uns",
     "content": "Dies ist ein Beispieltext."
+  },
+  "Counter": {
+    "title": "Zähler",
+    "increment": "Erhöhen"
   }
 }

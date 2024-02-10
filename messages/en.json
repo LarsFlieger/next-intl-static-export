@@ -5,5 +5,9 @@
   "About": {
     "title": "About",
     "content": "This is a simple example of a React application with internationalization."
+  },
+  "Counter": {
+    "title": "Counter",
+    "increment": "Increment"
   }
 }

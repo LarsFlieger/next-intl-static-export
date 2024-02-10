@@ -31,7 +31,7 @@ export default function RootLayout({
         <nav>
           <ul>
             {locales.map((l) => {
-              const pages = ["", "about"];
+              const pages = ["", "about", "counter"];
               return pages.map((page) => (
                 <li key={l}>
                   <Link href={`/${l}/${page}`}>{`/${l}/${page}`}</Link>
