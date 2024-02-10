@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "../globals.css";
 import { locales } from "@/i18n";
 import { unstable_setRequestLocale } from "next-intl/server";
+import Link from "next/link";
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
@@ -33,7 +34,7 @@ export default function RootLayout({
               const pages = ["", "about"];
               return pages.map((page) => (
                 <li key={l}>
-                  <a href={`/${l}/${page}`}>{`/${l}/${page}`}</a>
+                  <Link href={`/${l}/${page}`}>{`/${l}/${page}`}</Link>
                 </li>
               ));
             })}
