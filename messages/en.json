@@ -1,5 +1,9 @@
 {
   "Index": {
     "title": "Hello world!"
+  },
+  "About": {
+    "title": "About",
+    "content": "This is a simple example of a React application with internationalization."
   }
 }

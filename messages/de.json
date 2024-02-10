@@ -1,5 +1,9 @@
 {
   "Index": {
     "title": "Hallo Welt!"
+  },
+  "About": {
+    "title": "Über uns",
+    "content": "Dies ist ein Beispieltext."
   }
 }

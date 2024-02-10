@@ -26,7 +26,22 @@ export default function RootLayout({
 
   return (
     <html lang={locale}>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <nav>
+          <ul>
+            {locales.map((l) => {
+              const pages = ["", "about"];
+              return pages.map((page) => (
+                <li key={l}>
+                  <a href={`/${l}/${page}`}>{`/${l}/${page}`}</a>
+                </li>
+              ));
+            })}
+          </ul>
+        </nav>
+
+        {children}
+      </body>
     </html>
   );
 }
